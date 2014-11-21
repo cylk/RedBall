@@ -1,0 +1,182 @@
+<html>
+<head>
+
+
+
+
+<script type='text/javascript' src='http://lrn.icstars.org/redball.js'></script>
+<script>
+function moveup()
+{
+redball.top=redball.top-5; 
+}
+function movedown()
+{
+redball.top=redball.top+5; 
+}
+function moveleft()
+{
+redball.left=redball.left-5; 
+}
+function moveright()
+{
+redball.left=redball.left+5; 
+}
+function movediagonalupright()
+{
+moveup();
+moveright();
+}
+
+function movediagonaldownright()
+{
+movedown();
+moveright();
+}
+
+function movediagonaldownleft()
+{
+movedown();
+moveleft();
+
+
+
+
+
+
+
+
+function movetriangle()
+{
+movediagonalupright();
+movediagonalupright();
+movediagonalupright();
+movediagonalupright();
+movediagonalupright();
+movediagonalupright();
+movediagonalupright();
+movediagonaldownright();
+movediagonaldownright();
+movediagonaldownright();
+movediagonaldownright();
+movediagonaldownright();
+movediagonaldownright();
+movediagonaldownright();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+}
+
+function droctagon()
+{
+moveright();
+movediagonaldownright();
+movedown();
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+function movesquare() 
+{
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+moveleft();
+
+
+
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+moveup();
+
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+moveright();
+
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+movedown();
+
+
+
+
+
+
+
+
+
+
+//redball.top=redball.top-10
+//redball.left=redball.left+10
+//redball.left=redball.top-10
+//redball.left=redball-10
+}
+
+
+
+
+</script>
+</head>
+<body>
+<img src= "red_ball2.jpg"/ id ="redball"/
+<button onclick="moveup()"><img src="upredball1.jpg"height=50; width=50></button>
+<button onclick="movedown()"><img src="downredball1.jpg"height=50; width=50></button></button>
+<button onclick="moveleft()"><img src="leftRedball1-004.jpg"height=50; width=50></button>
+<button onclick="moveright()"><img src="rightRedball1-002.jpg"height=50; width=50></button>
+<button onclick="movesquare()"><img src="squareredball1.jpg"height=50; width=50></button>
+<button onclick="movediagonalupright()">diagonalupright</button>
+<button onclick="movediagonaldownright()">diagonaldownright</button>
+<button onclick="movetriangle()">triangle</button>
+
+
+
+</body>
+</html>
